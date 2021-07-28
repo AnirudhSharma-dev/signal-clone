@@ -1,3 +1,4 @@
+package-lock.json
 node_modules/**/*
 .expo/*
 npm-debug.*
@@ -12,4 +13,4 @@ web-build/
 # macOS
 .DS_Store
 
-package-lock.json
+
