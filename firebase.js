@@ -3,12 +3,12 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB2OAME0MfqMHuL1jbohICX2yNYB6bac0M",
-  authDomain: "signal-clone-app-7fc60.firebaseapp.com",
-  projectId: "signal-clone-app-7fc60",
-  storageBucket: "signal-clone-app-7fc60.appspot.com",
-  messagingSenderId: "924602069128",
-  appId: "1:924602069128:web:fa9a257e037071aa866f3d",
+  apiKey: "AIzaSyCcefS0lxYWY14YkQUDPB_QAPBFHns90DU",
+  authDomain: "signal-2a954.firebaseapp.com",
+  projectId: "signal-2a954",
+  storageBucket: "signal-2a954.appspot.com",
+  messagingSenderId: "1017865049515",
+  appId: "1:1017865049515:web:5bc5076d03801ce3502eee",
 };
 
 let app;
@@ -18,7 +18,7 @@ if (firebase.apps.length === 0) {
   app = firebase.app();
 }
 
-const db = app.firestore();
+const db = firebase.firestore();
 const auth = firebase.auth();
 
 export { db, auth };
